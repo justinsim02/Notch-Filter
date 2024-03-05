@@ -9,7 +9,7 @@ f0 = [1500, 2500] # distortion
 w0 = np.zeros(len(f0))
 r = 0.99
 
-# a and b) Design an IIR notch filter to eliminate f0 and f1
+# Design an IIR notch filter to eliminate f0 and f1
 poles = np.zeros((2,len(f0)), dtype=complex)
 zeros = np.zeros((2,len(f0)), dtype=complex)
 for f in range(len(f0)):
