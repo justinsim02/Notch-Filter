@@ -1,3 +1,8 @@
+import numpy as np
+import scipy.signal as signal
+import scipy
+import matplotlib.pyplot as plt
+import math
 # Load Audio
 sound_file = sci_io.loadmat('handel.mat')
 print('Sampling rate: {}'.format(sound_file['Fs'].item()))
